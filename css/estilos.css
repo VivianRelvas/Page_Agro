@@ -1,0 +1,146 @@
+/* Reset */
+/* CSS - são estilos em cascatas*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+img{max-width: 100%;}
+ul{list-style: none;}
+a{text-decoration: none;}
+h2{font-size: 1.5em; color: #333333;}
+p{font-size: 1em; color: #777777;}
+
+.cabecalho{
+    width: 100%; /*ocupa da pagina*/
+    float: left;
+    padding: 20px 8%;
+    background-color: #58f058;
+}
+
+.cabecalho form{
+    width: 30%;  /*ocupa do cabeçalho*/
+    float: right;
+}
+
+.cabecalho input[type="text"]{
+    width: 85%;  /*ocupa do form*/
+    float: left;
+    padding: 15px 10px;
+    border-radius: 5px 0 0 5px;   /*superior esquerdo -superior direito -inferior direito -inferior esquerdo*/ 
+}
+
+.cabecalho button{
+    width: 15%;  /*ocupa do input*/
+    float: right;
+    padding: 15px 10px;
+    background-color: #1e90e8;
+    color: #ffffff;
+    cursor: pointer;  /*mãozinha de link*/
+    border-radius: 5px 0 0 5px; /*0 5px 5px 0*/
+}
+
+.marca a{
+    width: 120px;
+    height: 120px;
+    float: left;
+    background: url(../img/marca.jpg) no-repeat;
+    font-size: 0%; /*Esconder o nome da EMPRESA e aparece o logo*/
+    background-size: contain; 
+}
+
+/*Menus*/
+
+.menu{
+    width: 100%;
+    float: left;
+    background-color: #4a4d4a;
+    padding: 20px 8%;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu li a{
+    font-size: 120%;
+    color: #9d9d9d;
+    margin-right: 25px;
+}
+
+.menu li a:hover{
+    color: #ffffff;
+}
+
+
+/*Social*/
+
+.social-midia{
+   float: right; /*o bloco vai flutuar para direita e os icones dentro vão flutuar para esquerda*/
+}
+
+.social-midia a{
+    color: #ffffff;
+    float: left;
+    margin-left: 12px;
+}
+
+.btn-facebook:hover{color: #3B5998;}  /*icone do facebook*/
+.btn-instagram:hover{color: #96306b;} /*ícone do instagram*/
+.btn-twitter:hover{color: #65a5d6;} /*ícone do twitter*/
+.btn-google:hover{color: #D73d32;} /*ícone do google*/
+
+.principal{
+    width: 100%;
+    float: left;
+    padding: 50px 8%;
+    margin-bottom: 20px;
+    background-color: #7e7979;
+}
+
+.sobre{
+    width: 100%;         
+    float: left;
+    padding: 50px 8%;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #7e7979;
+}
+
+.sobre h2{
+    width: 100%;         
+    float: left;
+    padding: 50px 8%;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #7e7979;
+}
+
+.sobre p{
+    width: 100%;         
+    float: left;
+    padding: 50px 8%;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #7e7979;
+}
+
+/*Rodapé*/
+
+.rodape{
+    width: 100%;
+    float: left;
+    background-color: #45a4ed;
+    padding: 20px 8%;
+}
+
+.rodape p{
+   color: #ffffff;
+}

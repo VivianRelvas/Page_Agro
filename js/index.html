@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<HTML>
+    <!--Comentários - é uma linguagem hierarquica (organizar os componentes) - temos HTML (raiz) e dentro temos o 
+    cabeçalho (oientações/adição de estilos/ligações com fontes e titulos) e o bodycorpo da página (header, main e footer)-->
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/estilo.css">
+        <title>Agricultura - O Celeiro do Mundo!!!</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <script src="https://kit.fontawesome.com/46c8d8a49d.js" crossorigin="anonymous"></script>
+    </head>
+
+        <body>  <!--componentes dentro do body = header (cabeçalho da page), main(corpo  principal) e footer(rodapé)-->
+          <header class="cabecalho"> <!--dentro do header = titulo (h1) e um formulario (form)-->
+                <h1 class="marca">
+                    <a  href="index.html" title="Nome da empresa">Agro R & J</a>
+                </h1>
+               <form method="POST">
+                   <input type="text" placeholder="Faça uma busca"> <!-- dentro do formulario = temos um campo de texto input e um botão button-->
+                   <button><i class="fas fa-search"></i></button>
+               </form>
+          </header>
+          
+           <nav class="menu">
+              <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Produtos</a></li>
+                  <li><a href="#">Informações</a></li>
+                  <li><a href="#">Contato</a></li>
+              </ul>
+
+               <div class="social-midia">
+                  <a href="#" class="btn-facebook"><i class="fab fa-facebook fa-1g"></i></a>
+                  <a href="#" class="btn-twitter"><i class="fab fa-twitter fa-1g"></i></a>
+                  <a href="#" class="btn-instagram"><i class="fab fa-instagram fa-1g"></i></a>
+                  <a href="#" class="btn-google"><i class="fab fa-google fa-1g"></i></a>
+               </div>
+           </nav>
+         
+          <main class="principal"> 
+              <article>
+               <h2>Sobre Nossa Empresa</h2> 
+               <p>Trabalhamos com o Cultivo orgânico (hortaliças e ervas) que é uma técnica de produção de alimentos
+                que busca manter e/ou aumentar os teores de matéria orgânica no solo, respeitnado o mesmo e sem utilizar 
+                nenhum tipo de agrotóxico. Uma das grandes vantagens em fazer esse tipo de Cultivo é ter a certeza de que
+                as hortaliças e ervas, são realmente orgânicos e ricos em nutrientes, ao contrário de alimentos processados
+                e industrializados que carregam em sua composição inúmeros ingredientes químicos, levando a perda de parte 
+                do seu valor nutritivo. Ter uma horta orgânica, além de ser uma atividade relaxante, representa qualidade 
+                de vida, tanto pelo envolvimento com a natureza quanto pela experiência de colocar a mão na terra para 
+                consumir o próprio alimento orgânico e fresco produzido em casa. </p> 
+              </article> 
+          </main>
+
+          <footer class="rodape">
+              <p>Agro R & J Ltda. - Todos os Direitos Reservados</p>
+          </footer>
+
+        </body>
+</HTML>
